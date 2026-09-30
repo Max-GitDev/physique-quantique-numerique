@@ -6,7 +6,7 @@ Diagonalisation de l'hamiltonien de spin S = 3/2 de l'ion Cr3+ (champ cristallin
 recherche des champs de résonance avec une cavité à 9,19 GHz, comparaison à des mesures
 expérimentales, et calcul du couplage collectif spin-cavité Omega(T).
 
-Auteur : Maxime Rimbaud — ESPCI Paris - PSL, TP numérique de physique quantique, option (2026).
+Auteur : Maxime Rimbaud - ESPCI Paris - PSL, TP numérique de physique quantique, option (2026).
 """
 
 from pathlib import Path

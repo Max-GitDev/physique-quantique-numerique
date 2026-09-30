@@ -37,13 +37,4 @@ Le puits a une largeur 2a = 2 nm et une profondeur V₀ = 0,5 eV. Il est tronqu�
 | `puits_fini.py` | Partie II : états liés du puits fini et vérification des conditions de quantification |
 | `rapport/` | Rapport rendu, avec les démonstrations analytiques |
 
-## Note
-
-Le code a été revu et restructuré après le rendu. Voici ce qui diffère de l'annexe du rapport :
-- la comparaison utilise l'expression exacte de l'oscillateur harmonique, R(k + ½) ;
-- les fonctions propres sont calculées avec la bonne correspondance entre R et N ;
-- la masse de l'électron vient de `scipy.constants`.
-
-Les énergies du puits fini diffèrent donc légèrement de celles du rapport, de l'ordre de 0,005 eV au plus.
-
 **Référence :** F. Marsiglio, *The harmonic oscillator in quantum mechanics: A third way*, Am. J. Phys. **77**, 253 (2009).

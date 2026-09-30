@@ -4,13 +4,13 @@ Oscillateur harmonique quantique tronqué par un puits infini (méthode de Marsi
 
 On développe la fonction d'onde sur la base des états propres du puits infini
 phi_n(x) = sqrt(2) sin(n pi x), 0 < x < 1, et on diagonalise la matrice de
-l'hamiltonien normalisé  h_nm = n^2 delta_nm + 2 ∫ sin(n pi x) nu_OH(x) sin(m pi x) dx
+l'hamiltonien normalisé  h_nm = n^2 delta_nm + 2 int sin(n pi x) nu_OH(x) sin(m pi x) dx
 avec nu_OH(x) = (pi^2 / 4) R^2 (x - 1/2)^2  et  R = hbar omega / E_1.
 
 Référence : F. Marsiglio, "The harmonic oscillator in quantum mechanics: A third way",
 Am. J. Phys. 77, 253 (2009).
 
-Auteur : Maxime Rimbaud — ESPCI Paris - PSL, TP numérique de physique quantique (2025).
+Auteur : Maxime Rimbaud - ESPCI Paris - PSL, TP numérique de physique quantique (2025).
 """
 
 from pathlib import Path

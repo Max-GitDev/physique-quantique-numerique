@@ -7,7 +7,7 @@ On diagonalise l'hamiltonien dans la base des états propres du puits infini
 phi_n(z) = sin(n pi (z + b) / 2b) / sqrt(b), puis on vérifie les conditions de
 quantification |cos(q a)| = q / q0 (états pairs) et |sin(q a)| = q / q0 (états impairs).
 
-Auteur : Maxime Rimbaud — ESPCI Paris - PSL, TP numérique de physique quantique (2025).
+Auteur : Maxime Rimbaud - ESPCI Paris - PSL, TP numérique de physique quantique (2025).
 """
 
 from pathlib import Path
@@ -37,7 +37,7 @@ def energie_puits_infini(n):
 
 
 def hamiltonien(N):
-    """H_nm = E_n delta_nm + ∫ phi_n V phi_m, avec V = +V0 pour a < |z| < b (barrières)."""
+    """H_nm = E_n delta_nm + int phi_n V phi_m, avec V = +V0 pour a < |z| < b (barrières)."""
     H = np.diag([energie_puits_infini(n) for n in range(1, N + 1)])
     for n in range(1, N + 1):
         for m in range(n, N + 1):
